@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como preparar un buen fernet</title>
+</head>
+<body>
+    <h1>Como preparar un buen fernet</h1>
+    <img src="imagenes/fernet-coca-barcelona.jpg" alt="">
+    <h2>ingredientes</h2>
+    <ul>
+        <li>fernet</li>
+        <li>coca</li>
+        <li>hielo</li>
+        <li>un vaso de preferencia</li>
+    </ul>
+    <h2>instrucciones</h2>
+    <ol>
+        <li>tomar el vaso seleccionado e ingresar el hielo</li>
+        <li>añadir el fernet a gusto (sugerible) un 30% del vaso</li>
+        <li>paso final añadir lo que resta del vaso en coca luego revolver suavemente y listo.</li>
+    </ol>
+
+    <h2>Lista de precios</h2>
+    <table>
+        <thead>
+        <tr>
+        <th colspan="2">Variedades</th>
+        <th>Precio</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Fernet 1000cc</td>
+        <td></td>
+        <td>$11000</td>
+        </tr>
+        <tr>
+        <td>Fernet 750cc</td>
+        <td></td>
+        <td>$9500</td>
+        </tr>
+        <tr>
+        <td>Fernet 450cc</td>
+        <td></td>
+        <td>$7500</td>
+        </tr>
+        </tfoot>
+        </table>
+
+        <h2>Registrate para novedades</h2>
+        <form action="/enviar-datos" method="post">
+            <label for="email">Tu email:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="consulta">Tipo de consulta:</label>
+            <select id="consulta" name="consulta">
+            <option value="general">Consulta general</option>
+            <option value="pedido">Información de pedido</option>
+            <option value="soporte">Soporte técnico</option>
+            </select>
+            <div>
+            <label for="newsletter">Suscribirse al boletín:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" checked>
+            </div>
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50">
+            Escribe tu mensaje aquí...
+            </textarea>
+            <input type="submit" value="Enviar consulta">
+</body>
+</html>
